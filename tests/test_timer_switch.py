@@ -37,7 +37,7 @@ def test_add_timer_switch(page: Page):
     # Starta timer 1
     timer_1.get_by_role("button", name="Start").click()
 
-    time.sleep(10)
+    time.sleep(2)
 
     # Pausa timer 1
     timer_1.get_by_role("button", name="Pause").click()
