@@ -1,7 +1,7 @@
 import time
 import re
-
 # re == reguljära uttryck == "regex"
+
 from playwright.sync_api import Page, expect
 
 base_url = "https://lejonmanen.github.io/timer-vue/"

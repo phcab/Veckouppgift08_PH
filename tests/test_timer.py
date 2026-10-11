@@ -1,14 +1,7 @@
-from environments import Page
-from environments import base_url
-import time
+from environments import Page, expect
+from environments import base_url#import time
 import re
 # re == reguljära uttryck == "regex"
-from playwright.sync_api import Page, expect
-
-# User story -skapa timer 
-#Add Timer - knappen 
-#Som en användare vill jag kunna skapa en timer 
-#Så att jag får möjlighet att starta en timer 
  
 #AT en timer med möjlighet att starta visas  
  

@@ -1,10 +1,7 @@
-from environments import Page
+from environments import Page, expect
 from environments import base_url
-import time
 import re
 import pytest
-# re == reguljära uttryck == "regex"
-from playwright.sync_api import Page, expect
 
 # Vanligt smoke test
 @pytest.mark.smoke

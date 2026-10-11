@@ -1,17 +1,12 @@
 import pytest
-from environments import Page
 from environments import base_url
-import time
-import re
-# re == reguljära uttryck == "regex"
-from playwright.sync_api import Page, expect
+from environments import Page, expect
 
-#
-#
-#
-
+##Testscenario: 
+#Surfa till websidan 
+#Klicka på den knapp som representerat temat du önskar
 #Light, Dark, Forest, Orange, Christmas
-#div.data.component "Select theme"
+#Valt tema visas
 
 @pytest.mark.parametrize(
 "theme",
