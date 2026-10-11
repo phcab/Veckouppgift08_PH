@@ -4,3 +4,4 @@
 
 #Kör alla tester
 #Python3 -m pytest -s
+#Python3 -m pytest -v
